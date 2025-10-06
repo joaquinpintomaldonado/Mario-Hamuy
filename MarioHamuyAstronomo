@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Hamuy – Astrónomo Chileno</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000010, #001a33);
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #001f3f;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00bfff;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.05);
+      padding: 20px 30px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #00bfff;
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 5px;
+    }
+    .gallery img {
+      width: 30%;
+      margin: 1%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #001f3f;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mario Hamuy</h1>
+    <p>Reconocido astrónomo chileno y divulgador científico</p>
+  </header>
+
+  <section>
+    <h2>Biografía</h2>
+    <p>
+      Mario Hamuy Wackenhut nació en Santiago de Chile en 1960. Es un destacado astrónomo chileno,
+      conocido por sus investigaciones sobre supernovas y por su rol en el desarrollo de la astronomía
+      en Chile y Latinoamérica.
+    </p>
+    <p>
+      Estudió Astronomía en la Universidad de Chile, donde también se ha desempeñado como profesor.
+      Fue presidente de la Fundación CATA (Centro de Astrofísica y Tecnologías Afines) y desempeñó un papel
+      clave como Coordinador Nacional de Ciencia, Tecnología e Innovación del Gobierno de Chile.
+    </p>
+  </section>
+
+  <section>
+    <h2>Logros y contribuciones</h2>
+    <ul>
+      <li>Premio Nacional de Ciencias Exactas (2015).</li>
+      <li>Investigaciones pioneras sobre supernovas tipo Ia, fundamentales para medir la expansión del universo.</li>
+      <li>Participación en proyectos del Observatorio Cerro Tololo y en colaboración con astrónomos internacionales.</li>
+      <li>Impulsor del desarrollo de la astronomía en Chile y promotor de políticas científicas nacionales.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Descubrimientos y aportes</h2>
+    <p>
+      Mario Hamuy trabajó junto al astrónomo estadounidense Mark Phillips en el estudio de las supernovas
+      tipo Ia, demostrando que su brillo puede utilizarse para medir distancias cósmicas con precisión.
+      Este trabajo fue clave para los descubrimientos posteriores sobre la expansión acelerada del universo,
+      que llevaron al Premio Nobel de Física en 2011.
+    </p>
+  </section>
+
+  <section>
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Mario_Hamuy_2017.jpg" alt="Mario Hamuy en 2017">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Observatorio_Cerro_Tololo.jpg" alt="Observatorio Cerro Tololo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Supernova_SN1994D.jpg" alt="Supernova SN1994D">
+    </div>
+  </section>
+
+  <footer>
+    <p>Página creada por Joaquín Pinto | Proyecto educativo sobre astronomía</p>
+  </footer>
+</body>
+</html>
